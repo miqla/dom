@@ -28,3 +28,11 @@ const h2Baru = document.createElement("h2");
 const textH2Baru = document.createTextNode("Mila Forever");
 h2Baru.appendChild(textH2Baru);
 section2.replaceChild(h2Baru, p5); // node elemen baru, node yg akan di replace
+
+// Manipulasi Node (method baru), silakan dicoba sendiri
+// parentNode.append()
+// parentNode.prepend()
+// childNode.before()
+// childNode.after()
+// childNode.remove()
+// childNode.replaceWith()
