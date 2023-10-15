@@ -37,9 +37,9 @@
 // }
 
 // // Mengubah Node Root (document)
-// const section2 = document.getElementById("section2");
-// const p4 = section2.querySelector("p");
-// p4.style.color = "red";
+const section2 = document.getElementById("section2");
+const p4 = section2.getElementsByTagName("p")[0];
+p4.style.color = "red";
 // -------------------- Akhir Bagian 2 ------------------
 
 // ------------------ Bagian 3 ----------------
