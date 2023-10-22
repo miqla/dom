@@ -26,3 +26,20 @@ body {
   opacity: 0.5;
   cursor: pointer;
 }
+
+/* tambahin animasi biar keren */
+@keyframes fadeIn {
+  to{
+    opacity: 1;
+  }
+}
+
+.fade {
+  opacity: 0;
+  /* forwards biar animasinya berhenti di keadaan terakir */
+  animation: fadeIn 0.5s forwards;
+}
+
+.active {
+  opacity: 0.5;
+}
