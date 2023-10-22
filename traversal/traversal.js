@@ -20,6 +20,8 @@ const close = document.querySelectorAll(".close");
 close.forEach(function (el) {
   el.addEventListener("click", function (e) {
     e.target.parentElement.style.display = "none";
+    // e.preventDefault(); untuk mencegah aksi default dari sebuah element, misal tag a, kalo href nya kosong, defaultnya dy akan kembali ke halaman yg sama/refresh, biar dy ga refresh maka dikasih preventDefault
+    // e.stopPropagation(); untuk menghentikan event bubble dari parent nya, biar event parentnya ga berjalan di dy
   });
 });
 
